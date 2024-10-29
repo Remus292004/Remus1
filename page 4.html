@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des étudiants</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        td {
+            font-style: italic;
+        }
+
+        /* Styles pour les décisions */
+        .admis {
+            background-color: #d4edda; /* Couleur de fond verte pour 'Admis' */
+            color: green; /* Texte vert */
+        }
+
+        .refuse {
+            background-color: #f8d7da; /* Couleur de fond rouge pour 'Refusé' */
+            color: red; /* Texte rouge */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Liste des étudiants</h1>
+
+    <table>
+        <tr>
+            <th>Numéro</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Contact</th>
+            <th>Décision</th>
+        </tr>
+        <tr class="admis"><td>1</td><td>ADOMAH</td><td>Jules</td><td>01 11 22 33 44</td><td>Admis</td></tr>
+        <tr class="refuse"><td>2</td><td>ATTOH</td><td>Chloé</td><td>02 22 33 44 55</td><td>Refusé</td></tr>
+        <tr class="admis"><td>3</td><td>GANOU</td><td>Stéphane</td><td>03 33 44 55 66</td><td>Admis</td></tr>
+        <tr class="refuse"><td>4</td><td>YAYI</td><td>Justine</td><td>04 44 55 66 77</td><td>Refusé</td></tr>
+        <tr class="admis"><td>5</td><td>KEZOU</td><td>Hugo</td><td>05 55 66 77 88</td><td>Admis</td></tr>
+        <tr class="refuse"><td>6</td><td>BOUBAKAR</td><td>Fatou</td><td>06 66 77 88 99</td><td>Refusé</td></tr>
+        <tr class="admis"><td>7</td><td>OUEDRAOGO</td><td>Olivier</td><td>07 77 88 99 10</td><td>Admis</td></tr>
+        <tr class="refuse"><td>8</td><td>DABO</td><td>Nadia</td><td>08 88 99 10 11</td><td>Refusé</td></tr>
+        <tr class="admis"><td>9</td><td>SORO</td><td>Yannick</td><td>09 99 10 11 22</td><td>Admis</td></tr>
+        <tr class="refuse"><td>10</td><td>KOUASSI</td><td>Valérie</td><td>10 10 11 12 13</td><td>Refusé</td></tr>
+        <tr class="admis"><td>11</td><td>GNAHOUA</td><td>Gaston</td><td>11 11 12 13 14</td><td>Admis</td></tr>
+        <tr class="refuse"><td>12</td><td>FOLLY</td><td>Bianca</td><td>12 12 13 14 15</td><td>Refusé</td></tr>
+        <tr class="admis"><td>13</td><td>MAHE</td><td>Romain</td><td>13 13 14 15 16</td><td>Admis</td></tr>
+        <tr class="refuse"><td>14</td><td>BANKOLE</td><td>Inès</td><td>14 14 15 16 17</td><td>Refusé</td></tr>
+        <tr class="admis"><td>15</td><td>YAO</td><td>Lucie</td><td>15 15 16 17 18</td><td>Admis</td></tr>
+        <tr class="refuse"><td>16</td><td>KOUDJENOU</td><td>Julien</td><td>16 16 17 18 19</td><td>Refusé</td></tr>
+        <tr class="admis"><td>17</td><td>KODJO</td><td>Alice</td><td>17 17 18 19 20</td><td>Admis</td></tr>
+        <tr class="refuse"><td>18</td><td>DJENAN</td><td>Bruno</td><td>18 18 19 20 21</td><td>Refusé</td></tr>
+        <tr class="admis"><td>19</td><td>HONFO</td><td>Marion</td><td>19 19 20 21 22</td><td>Admis</td></tr>
+        <tr class="refuse"><td>20</td><td>DJIKPA</td><td>Pierre</td><td>20 20 21 22 23</td><td>Refusé</td></tr>
+    </table>
+
+</body>
+</html>
